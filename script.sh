@@ -1,7 +1,7 @@
 #!/bin/bash
 if [ -z "$ROOT_PASSWORD" ]; then 
     echo "ROOT_PASSWORD не установлен"; 
-    exit 1
+    ROOT_PASSWORD=123
 else
     echo $ROOT_PASSWORD
 fi
